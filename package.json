@@ -4,7 +4,8 @@
   "description": "Package for mqtt connection in next",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"Building\"",
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/deliverynative/mqtt-next/issues"
   },
-  "homepage": "https://github.com/deliverynative/mqtt-next#readme"
+  "homepage": "https://github.com/deliverynative/mqtt-next#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "mqtt": "^4.2.8",
+    "mqtt-pattern": "^1.2.0",
+    "react": "^17.0.2"
+  }
 }
