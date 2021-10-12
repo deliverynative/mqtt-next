@@ -12,9 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/deliverynative/mqtt-next.git"
   },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/deliverynative/mqtt-next/issues"
   },
