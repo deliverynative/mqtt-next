@@ -4,5 +4,5 @@ export const STATUSES = {
   DISCONNECTED: `Disconnected`,
   DISCONNECTING: `Disconnecting`,
   OFFLINE: `Offline`,
-  RECONNECTING: `Reconnecting`,
+  RECONNECTING: `Reconnecting`
 }

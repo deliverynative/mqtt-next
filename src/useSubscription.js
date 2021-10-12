@@ -1,41 +1,43 @@
-import { useContext, useEffect, useCallback, useState } from 'react';
+import { useContext, useEffect, useCallback, useState } from 'react'
 
-import { matches } from 'mqtt-pattern';
+import { matches } from 'mqtt-pattern'
 
-import MqttContext from './context';
+import MqttContext from './context'
 
 export default function useSubscription(topic, options = {}) {
-  const { client, connectionStatus, parserMethod } = useContext(MqttContext);
+  const { client, connectionStatus, parserMethod } = useContext(MqttContext)
   console.log(client)
-  const [message, setMessage] = useState(undefined);
+  const [message, setMessage] = useState(undefined)
 
   const subscribe = useCallback(async () => {
-    client.subscribe(topic, options);
-  }, [client, options, topic]);
+    client.subscribe(topic, options)
+  }, [client, options, topic])
 
-  const callback = useCallback((receivedTopic, receivedMessage) => {
-      if ([topic].flat().some(rTopic => matches(rTopic, receivedTopic))) {
+  const callback = useCallback(
+    (receivedTopic, receivedMessage) => {
+      if ([topic].flat().some((rTopic) => matches(rTopic, receivedTopic))) {
         setMessage({
-          message: parserMethod?.(receivedMessage) || receivedMessage.toString(),
-          topic: receivedTopic,
-        });
+          message:
+            parserMethod?.(receivedMessage) || receivedMessage.toString(),
+          topic: receivedTopic
+        })
       }
     },
-    [parserMethod, topic],
-  );
+    [parserMethod, topic]
+  )
 
   useEffect(() => {
     if (client.connected) {
-      subscribe();
+      subscribe()
 
-      client.on(`message`, callback);
+      client.on(`message`, callback)
     }
-  }, [callback, client, subscribe]);
+  }, [callback, client, subscribe])
 
   return {
     client,
     connectionStatus,
     message,
-    topic,
-  };
+    topic
+  }
 }

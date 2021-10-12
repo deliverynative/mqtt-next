@@ -1,8 +1,7 @@
-import { createContext } from 'react';
-
+import { createContext } from 'react'
 
 export default createContext({
   client: null,
   connectionStatus: ``,
-  parserMethod: null,
-});
+  parserMethod: null
+})
