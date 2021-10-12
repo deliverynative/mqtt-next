@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/deliverynative/mqtt-next/compare/v1.0.2...v1.0.3) (2021-10-12)
+
+
+### Bug Fixes
+
+* Add babel process ([59d24d0](https://github.com/deliverynative/mqtt-next/commit/59d24d028d4c5b94429f1860e315901f49860e09))
+
 ## [1.0.2](https://github.com/deliverynative/mqtt-next/compare/v1.0.1...v1.0.2) (2021-10-12)
 
 
