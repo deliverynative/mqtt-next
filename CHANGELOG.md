@@ -16,6 +16,15 @@
 * Update babel presets in package.json ([a6f82d6](https://github.com/deliverynative/mqtt-next/commit/a6f82d69d893d5170080c81b15fd4d5be3325d61))
 * Use npm-create-library for ease of transpiling ([eb84428](https://github.com/deliverynative/mqtt-next/commit/eb84428b14d4f51b4f69a15aa371b0c8c0d18de0))
 
+## [1.0.7](https://github.com/deliverynative/mqtt-next/compare/v1.0.6...v1.0.7) (2021-10-12)
+
+
+### Bug Fixes
+
+* remove example ([a057792](https://github.com/deliverynative/mqtt-next/commit/a05779228d6915660add657ecb1d0d929e8a5d6e))
+* Update babel presets in package.json ([a6f82d6](https://github.com/deliverynative/mqtt-next/commit/a6f82d69d893d5170080c81b15fd4d5be3325d61))
+* Use npm-create-library for ease of transpiling ([eb84428](https://github.com/deliverynative/mqtt-next/commit/eb84428b14d4f51b4f69a15aa371b0c8c0d18de0))
+
 ## [1.0.6](https://github.com/deliverynative/mqtt-next/compare/v1.0.5...v1.0.6) (2021-10-12)
 
 
