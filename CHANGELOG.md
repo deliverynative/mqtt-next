@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/deliverynative/mqtt-next/compare/v1.0.7...v1.0.8) (2021-10-12)
+
+
+### Bug Fixes
+
+* Add mqtt and mqtt-pattern and move semantic release deps ([62fbaa4](https://github.com/deliverynative/mqtt-next/commit/62fbaa4d3428cbca5e41f6e23fba70c2407209b5))
+
 ## [1.0.7](https://github.com/deliverynative/mqtt-next/compare/v1.0.6...v1.0.7) (2021-10-12)
 
 
