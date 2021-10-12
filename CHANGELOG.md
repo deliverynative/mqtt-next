@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/deliverynative/mqtt-next/compare/v1.0.9...v1.0.10) (2021-10-12)
+
+
+### Bug Fixes
+
+* move react and add fragment ([4690772](https://github.com/deliverynative/mqtt-next/commit/4690772904d7226cc12b45909936ada18ebd25d4))
+
 ## [1.0.9](https://github.com/deliverynative/mqtt-next/compare/v1.0.8...v1.0.9) (2021-10-12)
 
 
