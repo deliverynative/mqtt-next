@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/deliverynative/mqtt-next/compare/v1.0.8...v1.0.9) (2021-10-12)
+
+
+### Bug Fixes
+
+* Add React import and go eslint fixes ([734b7a6](https://github.com/deliverynative/mqtt-next/commit/734b7a6c25d2d153d4f4962432eee71f20fc18bc))
+
 ## [1.0.8](https://github.com/deliverynative/mqtt-next/compare/v1.0.7...v1.0.8) (2021-10-12)
 
 
