@@ -5,11 +5,13 @@ import MqttContext from './Context';
 import { STATUSES } from './types';
 
 export default function Connector({
-  children,
   brokerUrl,
+  children,
+  enabled,
   options = { keepalive: 0 },
   parserMethod,
 }) {
+  if (!enabled) return <>{children}</>
   const clientRef = useRef(null);
   const [connectionStatus, setStatus] = useState(`Offline`);
 
