@@ -5,7 +5,7 @@
   "description": "Package for mqtt connection in next",
   "main": "lib/index.js",
   "scripts": {
-    "build": "echo \"Building\"",
+    "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files",
     "test": "echo \"Error: no test specified\""
   },
   "repository": {
@@ -13,9 +13,11 @@
     "url": "git+https://github.com/deliverynative/mqtt-next.git"
   },
   "files": [
-    "lib"
+    "dist",
+    "CHANGELOG.md",
+    "README.md"
   ],
-  "module": "lib/index.js",
+  "module": "dist/index.js",
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -24,10 +26,17 @@
   },
   "homepage": "https://github.com/deliverynative/mqtt-next#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
     "mqtt": "^4.2.8",
     "mqtt-pattern": "^1.2.0",
     "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5"
   }
 }
