@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/deliverynative/mqtt-next/compare/v1.0.5...v1.0.6) (2021-10-12)
+
+
+### Bug Fixes
+
+* Update package.json ([5981e6d](https://github.com/deliverynative/mqtt-next/commit/5981e6d1adfb951c46b4ee108d69001dad92ec2c))
+
 ## [1.0.5](https://github.com/deliverynative/mqtt-next/compare/v1.0.4...v1.0.5) (2021-10-12)
 
 
