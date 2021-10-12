@@ -1,0 +1,20 @@
+{
+  "name": "mqtt-next",
+  "version": "1.0.0",
+  "description": "Package for mqtt connection in next",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deliverynative/mqtt-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deliverynative/mqtt-next/issues"
+  },
+  "homepage": "https://github.com/deliverynative/mqtt-next#readme"
+}
