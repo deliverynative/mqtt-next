@@ -1,5 +1,6 @@
 {
   "name": "mqtt-next",
+  "private": true,
   "version": "1.0.0",
   "description": "Package for mqtt connection in next",
   "main": "index.js",
