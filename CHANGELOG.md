@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/deliverynative/mqtt-next/compare/v1.0.4...v1.0.5) (2021-10-12)
+
+
+### Bug Fixes
+
+* Don't ignore dist ([b98ad10](https://github.com/deliverynative/mqtt-next/commit/b98ad10cf4441c84b69ea068237f19ca448196db))
+
 ## [1.0.4](https://github.com/deliverynative/mqtt-next/compare/v1.0.3...v1.0.4) (2021-10-12)
 
 
