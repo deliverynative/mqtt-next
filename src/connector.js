@@ -1,7 +1,7 @@
 import { connect } from 'mqtt';
 import {  useCallback, useEffect, useState, useRef } from 'react';
 
-import MqttContext from './Context';
+import MqttContext from './context';
 import { STATUSES } from './types';
 
 export default function Connector({

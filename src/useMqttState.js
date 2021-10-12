@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import MqttContext from './Context';
+import MqttContext from './context';
 
 export default function useMqttState() {
   const { connectionStatus, client, parserMethod } = useContext(

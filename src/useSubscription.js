@@ -2,7 +2,7 @@ import { useContext, useEffect, useCallback, useState } from 'react';
 
 import { matches } from 'mqtt-pattern';
 
-import MqttContext from './Context';
+import MqttContext from './context';
 
 export default function useSubscription(topic, options = {}) {
   const { client, connectionStatus, parserMethod } = useContext(MqttContext);
