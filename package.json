@@ -1,9 +1,9 @@
 {
   "name": "mqtt-next",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package for mqtt connection in next",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "echo \"Building\"",
     "test": "echo \"Error: no test specified\""
@@ -15,7 +15,6 @@
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
   "module": "lib/index.js",
   "keywords": [],
   "author": "",

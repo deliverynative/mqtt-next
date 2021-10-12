@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/deliverynative/mqtt-next/compare/v1.0.1...v1.0.2) (2021-10-12)
+
+
+### Bug Fixes
+
+* Move files and add module config ([b9b2dfa](https://github.com/deliverynative/mqtt-next/commit/b9b2dfa71c42ad1f11f15a113e235bbb16e09e49))
+
 ## [1.0.1](https://github.com/deliverynative/mqtt-next/compare/v1.0.0...v1.0.1) (2021-10-12)
 
 
