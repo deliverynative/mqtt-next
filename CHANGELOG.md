@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/deliverynative/mqtt-next/compare/v1.0.3...v1.0.4) (2021-10-12)
+
+
+### Bug Fixes
+
+* Change main to dist ([5f361a7](https://github.com/deliverynative/mqtt-next/commit/5f361a75d298164968cee2209a1fa576e9237c71))
+
 ## [1.0.3](https://github.com/deliverynative/mqtt-next/compare/v1.0.2...v1.0.3) (2021-10-12)
 
 
