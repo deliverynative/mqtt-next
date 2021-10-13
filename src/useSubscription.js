@@ -6,7 +6,6 @@ import MqttContext from './context'
 
 export default function useSubscription(topic, options = {}) {
   const { client, connectionStatus, parserMethod } = useContext(MqttContext)
-  console.log(client)
   const [message, setMessage] = useState(undefined)
 
   const subscribe = useCallback(async () => {
@@ -32,7 +31,7 @@ export default function useSubscription(topic, options = {}) {
 
       client.on(`message`, callback)
     }
-  }, [callback, client, subscribe])
+  }, [callback, client, subscribe, topic])
 
   return {
     client,
