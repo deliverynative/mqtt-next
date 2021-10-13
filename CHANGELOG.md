@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/deliverynative/mqtt-next/compare/v1.0.13...v1.0.14) (2021-10-13)
+
+
+### Bug Fixes
+
+* Add useEffect cleanups ([4b993d3](https://github.com/deliverynative/mqtt-next/commit/4b993d3d6d7062c9031a8079eb1ed062b5a87832))
+
 ## [1.0.13](https://github.com/deliverynative/mqtt-next/compare/v1.0.12...v1.0.13) (2021-10-13)
 
 
