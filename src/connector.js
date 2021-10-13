@@ -44,6 +44,10 @@ export default function Connector({
     if (!clientRef.current) {
       mqttConnect()
     }
+    return () => {
+      clientRef.current.end(true)
+      clientRef.current = null
+    }
   }, [clientRef, mqttConnect, parserMethod])
 
   return (

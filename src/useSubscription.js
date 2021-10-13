@@ -31,6 +31,9 @@ export default function useSubscription(topic, options = {}) {
 
       client.on(`message`, callback)
     }
+    return () => {
+      client.off('message', callback)
+    }
   }, [callback, client, subscribe, topic])
 
   return {
