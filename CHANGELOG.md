@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/deliverynative/mqtt-next/compare/v1.0.10...v1.0.11) (2021-10-13)
+
+
+### Bug Fixes
+
+* REmove prepare ([44de44c](https://github.com/deliverynative/mqtt-next/commit/44de44c0772463df1dbcf7a6c5765a9b326ba948))
+
 ## [1.0.10](https://github.com/deliverynative/mqtt-next/compare/v1.0.9...v1.0.10) (2021-10-12)
 
 

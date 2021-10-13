@@ -1,6 +1,6 @@
 {
   "name": "mqtt-next",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Mqtt implementation for usage in next.js",
   "author": "tom-con",
   "license": "MIT",
