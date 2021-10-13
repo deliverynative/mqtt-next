@@ -1,3 +1,11 @@
+## [1.0.12](https://github.com/deliverynative/mqtt-next/compare/v1.0.11...v1.0.12) (2021-10-13)
+
+
+### Bug Fixes
+
+* Add npm_token to main.yaml ([78cdc12](https://github.com/deliverynative/mqtt-next/commit/78cdc12ae100b432238d721ad4242cfc7b8f052c))
+* Remove private and add back prepare ([712a3ae](https://github.com/deliverynative/mqtt-next/commit/712a3aebb3bd6f082476620e9725f0a2335f3f4a))
+
 ## [1.0.11](https://github.com/deliverynative/mqtt-next/compare/v1.0.10...v1.0.11) (2021-10-13)
 
 
