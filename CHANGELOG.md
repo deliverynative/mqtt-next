@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/deliverynative/mqtt-next/compare/v1.0.12...v1.0.13) (2021-10-13)
+
+
+### Bug Fixes
+
+* Add topic dependency to useSubscription ([9c49b5c](https://github.com/deliverynative/mqtt-next/commit/9c49b5cf298e418bcd5900dad951e6f5cc28df65))
+
 ## [1.0.12](https://github.com/deliverynative/mqtt-next/compare/v1.0.11...v1.0.12) (2021-10-13)
 
 
