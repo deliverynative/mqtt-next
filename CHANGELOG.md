@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/deliverynative/mqtt-next/compare/v1.0.14...v1.0.15) (2021-11-13)
+
+
+### Bug Fixes
+
+* Update React verions ([af8ea21](https://github.com/deliverynative/mqtt-next/commit/af8ea21227e12d65e311c8c129a8fdd5e01e798a))
+
 ## [1.0.14](https://github.com/deliverynative/mqtt-next/compare/v1.0.13...v1.0.14) (2021-10-13)
 
 
