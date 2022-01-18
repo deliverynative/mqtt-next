@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/deliverynative/mqtt-next/compare/v1.0.15...v1.0.16) (2022-01-18)
+
+
+### Bug Fixes
+
+* Check process.browser on mqtt subscription ([c81583a](https://github.com/deliverynative/mqtt-next/commit/c81583aeae5723285f13cfc35b0843fa3c68457a))
+
 ## [1.0.15](https://github.com/deliverynative/mqtt-next/compare/v1.0.14...v1.0.15) (2021-11-13)
 
 
