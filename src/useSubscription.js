@@ -26,13 +26,14 @@ export default function useSubscription(topic, options = {}) {
   )
 
   useEffect(() => {
-    if (process.browser && client?.connected) {
-      subscribe()
-
-      client.on(`message`, callback)
-    }
-    return () => {
-      client.off('message', callback)
+    if (process.browser && client) {
+      if (client.connected) {
+        subscribe()
+        client.on(`message`, callback)
+      }
+      return () => {
+        client.off('message', callback)
+      }
     }
   }, [callback, client, subscribe, topic])
 
