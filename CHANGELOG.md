@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/deliverynative/mqtt-next/compare/v1.0.16...v1.0.17) (2022-01-18)
+
+
+### Bug Fixes
+
+* Ensure client in useSubscription ([f483f85](https://github.com/deliverynative/mqtt-next/commit/f483f85af8c144e8cedc10bdbcbce7a6495faa2c))
+
 ## [1.0.16](https://github.com/deliverynative/mqtt-next/compare/v1.0.15...v1.0.16) (2022-01-18)
 
 
