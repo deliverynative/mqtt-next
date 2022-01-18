@@ -26,7 +26,7 @@ export default function useSubscription(topic, options = {}) {
   )
 
   useEffect(() => {
-    if (client.connected) {
+    if (process.browser && client?.connected) {
       subscribe()
 
       client.on(`message`, callback)
